@@ -1,5 +1,40 @@
 # Changelog
 
+## [2026.9.15](https://github.com/jdx/mise/compare/v2026.9.14..v2026.9.15) - 2026-09-25
+
+### 🚀 Features
+
+- **(bootstrap)** show Mac App Store app names in packages status by @jdx in [#13622](https://github.com/jdx/mise/pull/13622)
+- **(pypi)** support #subdirectory= and .git-less URLs in git sources by @jakedgy in [#13607](https://github.com/jdx/mise/pull/13607)
+
+### 🐛 Bug Fixes
+
+- **(dotfiles)** stop `*` crossing `/` in tracked include patterns by @jdx in [#13618](https://github.com/jdx/mise/pull/13618)
+- **(dotfiles)** anchor include/exclude patterns with a leading slash to the entry root by @jdx in [#13621](https://github.com/jdx/mise/pull/13621)
+
+### 🚜 Refactor
+
+- **(cmd)** move process execution and git into mise-util by @jdx in [#13625](https://github.com/jdx/mise/pull/13625)
+- **(config)** move generated settings types into a mise-settings crate by @jdx in [#13616](https://github.com/jdx/mise/pull/13616)
+- **(env)** move environment and directory statics into a mise-util crate by @jdx in [#13620](https://github.com/jdx/mise/pull/13620)
+- **(file)** move file, path, hash and process helpers into mise-util by @jdx in [#13624](https://github.com/jdx/mise/pull/13624)
+- **(http)** move http, github, gitlab, forgejo and tokens into mise-util by @jdx in [#13631](https://github.com/jdx/mise/pull/13631)
+- move self-contained leaf modules into mise-util by @jdx in [#13628](https://github.com/jdx/mise/pull/13628)
+- move network flags, cache manager and exit plumbing into mise-util by @jdx in [#13629](https://github.com/jdx/mise/pull/13629)
+
+### 🧪 Testing
+
+- **(dotfiles)** cover leading-slash track patterns end to end by @jdx in [#13617](https://github.com/jdx/mise/pull/13617)
+
+### 📦 Registry
+
+- add sofka by @jylenhof in [#13612](https://github.com/jdx/mise/pull/13612)
+- add imessage-exporter ([github:ReagentX/imessage-exporter](https://github.com/ReagentX/imessage-exporter)) by @i-api in [#13640](https://github.com/jdx/mise/pull/13640)
+
+### Chore
+
+- fix lints reported by the Rust 1.99 beta toolchain by @jdx in [#13627](https://github.com/jdx/mise/pull/13627)
+
 ## [2026.9.14](https://github.com/jdx/mise/compare/v2026.9.13..v2026.9.14) - 2026-09-25
 
 ### 🚀 Features
